@@ -20,3 +20,55 @@ body{
     padding: 2rem;
     text-align: center;
 }
+
+.subtitle{
+    opacity: 0.8;
+}
+
+.content{
+    display:flex; /*coloca las tarjetas una al lado de la otra*/
+    gap:2rem; /* separar las tarjetas*/
+    flex-wrap: wrap; /* permite que las tarjetas bajen si no caben*/
+    justify-content: center;
+    padding: 0.2reg;
+    
+}
+
+.card{
+    background: rgb(84, 60, 222);
+    padding: 1.25rem;
+    border-radius:20px;
+    box-shadow: 0.6px 18px rgb(110, 110, 200); /* dar profundidad al cuadro de texto*/
+    width: 300px;
+}
+.card h2{
+    margin-bottom: 0.5rem;
+
+}
+
+.card p{
+    margin-bottom: 1rem;
+    color:blue;
+    }
+
+
+.btn{
+    display:inline-block;
+    padding:0.5rem  1rem;
+    background: aquamarine;
+    border-radius: 20px;
+    color:black
+    
+}
+
+.card a{
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.site-footer{
+    text-align:center;
+    padding: 1rem;
+    color:black;
+}
